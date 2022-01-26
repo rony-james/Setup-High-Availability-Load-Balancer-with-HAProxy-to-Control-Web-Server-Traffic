@@ -19,6 +19,9 @@ Step 1: Installing Apache on Client Machines
 - yum install httpd
 Apache has installed open the browser and type the client VM IP=13.232.51.126 and 13.233.130.169
 
+
+![alt text](https://github.com/rony-james/Setup-High-Availability-Load-Balancer-with-HAProxy-to-Control-Web-Server-Traffic/blob/main/backend1.png?raw=true)
+
 Step 2: Installing HAProxy Server
 - yum install haproxy openssl-devel
 Install HAProxy on master node 13.127.113.154
