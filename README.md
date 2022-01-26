@@ -2,6 +2,10 @@
 HAProxy which stands for High Availability proxy, is open-source software for TCP and HTTP protocols. Noted for its speed and lightweight framework, it is one of the industry’ most opted load balancers. During high-traffic days such as holidays and festive seasons, hundreds and thousands of concurrent users may end up hitting e-commerce sites like Magento, at such instances, it forms critical to balance the server’s workload. 
 
 # HAproxy configuration and Load balancing
+
+![alt text](https://github.com/rony-james/Setup-High-Availability-Load-Balancer-with-HAProxy-to-Control-Web-Server-Traffic/blob/main/haproxy.jpg?raw=true)
+
+
 ## My Environment Setup
 Here our load-balancer HAProxy CentOS7 server having hostname as haproxy with IP address 13.127.113.154
 
@@ -30,9 +34,9 @@ Step 3: Configure HAProxy
 Open the config file of HAProxy
 - vim /etc/haproxy/haproxy.cfg
 
+For checking syntax errors, use the command:
+
+sudo haproxy -c -f /etc/haproxy/haproxy.cfg
+
 ![alt text](https://github.com/rony-james/Setup-High-Availability-Load-Balancer-with-HAProxy-to-Control-Web-Server-Traffic/blob/main/haproxyconf.png?raw=true)
 
-## Features
-
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
