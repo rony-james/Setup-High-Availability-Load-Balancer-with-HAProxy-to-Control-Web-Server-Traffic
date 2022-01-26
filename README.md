@@ -30,6 +30,8 @@ Step 3: Configure HAProxy
 Open the config file of HAProxy
 - vim /etc/haproxy/haproxy.cfg
 
+![alt text](https://github.com/rony-james/Setup-High-Availability-Load-Balancer-with-HAProxy-to-Control-Web-Server-Traffic/blob/main/haproxyconf.png?raw=true)
+
 ## Features
 
 - Import a HTML file and watch it magically convert to Markdown
