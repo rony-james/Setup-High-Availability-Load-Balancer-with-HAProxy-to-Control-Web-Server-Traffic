@@ -1,0 +1,2 @@
+# Setup-High-Availability-Load-Balancer-with-HAProxy-to-Control-Web-Server-Traffic
+HAProxy which stands for High Availability proxy, is open-source software for TCP and HTTP protocols. Noted for its speed and lightweight framework, it is one of the industry’ most opted load balancers. During high-traffic days such as holidays and festive seasons, hundreds and thousands of concurrent users may end up hitting e-commerce sites like Magento, at such instances, it forms critical to balance the server’s workload. 
